@@ -4,5 +4,8 @@ require_relative "ghistory/version"
 
 module Ghistory
   class Error < StandardError; end
-  # Your code goes here...
+
+  def self.ping
+    "pong"
+  end
 end

@@ -7,7 +7,7 @@ class GhistoryTest < Minitest::Test
     refute_nil ::Ghistory::VERSION
   end
 
-  def test_it_does_something_useful
-    assert false
+  def test_it_can_ping
+    assert Ghistory.ping == "pong"
   end
 end
