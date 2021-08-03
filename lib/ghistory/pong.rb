@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 module Ghistory
-  class Ping
+  class Pong
     def self.call
       "pong"
     end
